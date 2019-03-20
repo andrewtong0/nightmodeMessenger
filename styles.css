@@ -1,0 +1,81 @@
+/* Main Background */
+.uiScrollableAreaBody, ._4sp8 {
+    background-color: #212121 !important;
+}
+
+/* Selected Message */
+._1ht2 {
+    background-color: #141414 !important;
+}
+
+/* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2) */
+._17w2, ._36ic, ._1tqi, h2 {
+    color: rgb(176, 176, 176) !important;
+}
+
+/* Right Sidebar Title */
+._2jnv, ._2jnx, ._2jnz, ._2jnx, ._30e7, ._5j5f {
+    color: rgb(238, 238, 238) !important;
+}
+
+/* Right Sidebar Menu Titles */
+._1lj0 {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+/* Left Sidebar Title (._1ht6) and Right Sidebar Menu Text (._3szq)*/
+._1ht6, ._3szq {
+    color: rgb(216, 216, 216) !important;
+}
+
+/* Left Sidebar Message Preview, Left Sidebar Captions */
+._1htf, ._225b {
+    color: rgb(134, 134, 134) !important;
+}
+
+/* Right Sidebar Participant Names */
+._364g, ._3q34, ._3q35, ._4rph ._4rpj {
+    color: #dadada !important;
+}
+
+/* Permissions Tag per participant user (_5qsj), Message History Timestamps (_1ht7) */
+._5qsj, ._1ht7, ::placeholder, input{
+    color: #8c8c8c !important;
+}
+
+/* Chat update messages (e.g. changing nicknames) */
+._497p {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Embed link background */
+._tih, ._310t, ._3xn3, ._3xn7 {
+    background: white !important;
+    border-radius: 10px !important;
+}
+
+/* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al) */
+._4rv3, ._5iwm, ._58al {
+    background: #1b1b1b !important;
+}
+
+/* Removed duplicate magnifying glass icon */
+.sp_DRWiQpFHw7f {
+    background-image: url(#) !important;
+}
+
+/* Search results navbar */
+._33p7 {
+    background-color: rgba(51, 51, 51, 0.9) !important;
+    color: #c5c5c5 !important;
+}
+
+/* Search nav arrows have button outlines */
+._30yy:focus:not(:active) {
+    outline: none !important;
+}
+
+/* Search popup (if page refreshed in middle of search */
+._4eby {
+    background: #2b2b2b !important;
+    border-radius: 0 !important;
+}
