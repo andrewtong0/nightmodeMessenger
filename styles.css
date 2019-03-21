@@ -119,3 +119,12 @@
 ._nd_, ._hh7 {
     color: black !important;
 }
+
+/* Mentions popup box */
+._13iv, ._1k1p {
+    background-color: #0b0b0b !important;
+}
+/* Mentions popup box on hover */
+._1k1p:hover {
+    background-color: #292929 !important;
+}
