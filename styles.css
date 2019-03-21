@@ -8,8 +8,8 @@
     background-color: #141414 !important;
 }
 
-/* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2) */
-._17w2, ._36ic, ._1tqi, h2 {
+/* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2), New friend text (._36zg, ._1n-e), Nametags (._ih3) */
+._17w2, ._36ic, ._1tqi, h2, ._36zg, ._1n-e, ._ih3 {
     color: rgb(176, 176, 176) !important;
 }
 
@@ -18,8 +18,8 @@
     color: rgb(238, 238, 238) !important;
 }
 
-/* Right Sidebar Menu Titles */
-._1lj0 {
+/* Right Sidebar Menu Titles, Last Active Text Right Sidebar (._3eus, ._5uh), Last Active Text Top Bar */
+._1lj0, ._3eus, ._5uh, ._2v6o {
     color: rgba(255, 255, 255, 0.4) !important;
 }
 /* Left Sidebar Title (._1ht6) and Right Sidebar Menu Text (._3szq)*/
@@ -37,8 +37,8 @@
     color: #dadada !important;
 }
 
-/* Permissions Tag per participant user (_5qsj), Message History Timestamps (_1ht7) */
-._5qsj, ._1ht7, ::placeholder, input{
+/* Permissions Tag per participant user (_5qsj), Message History Timestamps (_1ht7), Search Bar Input */
+._5qsj, ._1ht7, ::placeholder, input {
     color: #8c8c8c !important;
 }
 
@@ -53,9 +53,9 @@
     border-radius: 10px !important;
 }
 
-/* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al) */
-._4rv3, ._5iwm, ._58al {
-    background: #1b1b1b !important;
+/* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al), Top bar background (._673w) */
+._4rv3, ._58al, ._673w {
+    background: #161616 !important;
 }
 
 /* Removed duplicate magnifying glass icon */
@@ -74,8 +74,25 @@
     outline: none !important;
 }
 
-/* Search popup (if page refreshed in middle of search */
-._4eby {
+/* Search popup (if page refreshed in middle of search; ._4eby), Popup Text Menus (._19jt) */
+._4eby, ._19jt, ._4ng2  {
     background: #2b2b2b !important;
     border-radius: 0 !important;
+    color: #c5c5c5 !important;
+}
+
+/* Popup Text Menus with Opacity (._374c) */
+._374c {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Chat Bar Input (._5rp8 ._1mf) */
+._5rp8, ._1mf {
+    color: #bfbfbf !important;
+}
+
+/* Sticker Menu Icon & Game Icon - Inverted Icon */
+._4rv6, a._4ce_ {
+    background-image: url("https://i.imgur.com/XA3EVhg.png") !important;
+    opacity: 0.55 !important;
 }
