@@ -1,8 +1,13 @@
   {
     "name": "Nightmode Messenger",
     "version": "1.0",
-    "description": "Enables nightmode theme for Facebook Messenger",
-	"permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+    "description": "Enables a night mode theme for Facebook Messenger",
+    "icons": {
+      "16": "images/nightModeIcon16.png",
+      "32": "images/nightModeIcon32.png",
+      "48": "images/nightModeIcon48.png",
+      "128": "images/nightModeIcon128.png"
+    },
     "content_scripts": [{
       "css": ["styles.css"],
       "matches": ["https://www.messenger.com/*"]

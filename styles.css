@@ -1,5 +1,5 @@
-/* Main Background */
-.uiScrollableAreaBody, ._4sp8 {
+/* Main Background, Active contacts button background (._6ckg)*/
+.uiScrollableAreaBody, ._4sp8, ._6ckg {
     background-color: #212121 !important;
 }
 
@@ -32,8 +32,8 @@
     color: rgb(134, 134, 134) !important;
 }
 
-/* Right Sidebar Participant Names */
-._364g, ._3q34, ._3q35, ._4rph ._4rpj {
+/* Right Sidebar Participant Names, Active Contacts Text (._6cke, ._6ckf) */
+._364g, ._3q34, ._3q35, ._4rph ._4rpj, ._6cke, ._6ckf {
     color: #dadada !important;
 }
 
@@ -81,8 +81,8 @@
     color: #c5c5c5 !important;
 }
 
-/* Popup Text Menus with Opacity (._374c) */
-._374c {
+/* Popup Text Menus with Opacity (._374c), Active Status Description (._6cs7) */
+._374c, ._6cs7 {
     color: rgba(255, 255, 255, 0.4) !important;
 }
 
@@ -91,8 +91,27 @@
     color: #bfbfbf !important;
 }
 
-/* Sticker Menu Icon & Game Icon - Inverted Icon */
-._4rv6, a._4ce_ {
+/* Sticker Menu Icon & Game Icon - Inverted Icon, React option to messages (.sp_DRWiQpFHw7f) */
+._4rv6, a._4ce_, .sp_DRWiQpFHw7f {
     background-image: url("https://i.imgur.com/XA3EVhg.png") !important;
     opacity: 0.55 !important;
+}
+
+:root {
+    --popup-colour: rgba(14, 14, 14, 0.92);
+}
+
+/* Timestamp popup */
+.tooltipContent {
+    background-color: var(--popup-colour) !important;
+    color: #d6d6d6 !important;
+}
+/* Timestamp popup arrow (should ideally be same colour as popup above) */
+.uiContextualLayerLeft>.uiTooltipX i.arrow, .uiContextualLayerRight>.uiTooltipX i.arrow{
+    border-right-color: var(--popup-colour) !important;
+    border-left-color: var(--popup-colour) !important;
+}
+
+.uiContextualLayerAboveCenter>.uiTooltipX i.arrow{
+    border-top-color: var(--popup-colour) !important;
 }
