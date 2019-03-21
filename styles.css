@@ -1,5 +1,5 @@
-/* Main Background, Active contacts button background (._6ckg)*/
-.uiScrollableAreaBody, ._4sp8, ._6ckg {
+/* Main Background, Active contacts button background (._6ckg), Active typing dialogue box (._17pz)*/
+.uiScrollableAreaBody, ._4sp8, ._6ckg, ._17pz {
     background-color: #212121 !important;
 }
 
@@ -111,7 +111,11 @@
     border-right-color: var(--popup-colour) !important;
     border-left-color: var(--popup-colour) !important;
 }
-
 .uiContextualLayerAboveCenter>.uiTooltipX i.arrow{
     border-top-color: var(--popup-colour) !important;
+}
+
+/* User message font colour */
+._nd_, ._hh7 {
+    color: black !important;
 }
