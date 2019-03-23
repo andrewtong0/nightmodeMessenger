@@ -150,3 +150,8 @@
 ._1r_9, ._53ik, ._53io {
     background-image: url('#') !important;
 }
+
+/* Poll selection circles */
+._2m5p {
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
