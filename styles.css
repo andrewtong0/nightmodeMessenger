@@ -55,7 +55,7 @@
 
 /* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al), Top bar background (._673w) */
 ._4rv3, ._58al, ._673w {
-    background: #161616 !important;
+    background: var(--input-background) !important;
 }
 
 /* Removed duplicate magnifying glass icon */
@@ -99,6 +99,7 @@
 
 :root {
     --popup-colour: rgba(14, 14, 14, 0.92);
+    --input-background: #161616;
 }
 
 /* Timestamp popup */
@@ -111,7 +112,7 @@
     border-right-color: var(--popup-colour) !important;
     border-left-color: var(--popup-colour) !important;
 }
-.uiContextualLayerAboveCenter>.uiTooltipX i.arrow{
+.uiContextualLayerAboveCenter>.uiTooltipX i.arrow, .uiContextualLayer,.uiContextualLayerAboveLeft{
     border-top-color: var(--popup-colour) !important;
 }
 
@@ -127,4 +128,25 @@
 /* Mentions popup box on hover */
 ._1k1p:hover {
     background-color: #292929 !important;
+}
+
+/* Group chat seen counter (e.g. +4) */
+._jf4 ._jf3 {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Poll Word (i.e. "Poll) (._3bfu), Poll Title (._1mr_ ) */
+._3b4u, ._1mr_  {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+/* Poll options text */
+._1mq- {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+/* Poll options background */
+._1mq_, ._1mqz, ._1imq- {
+    background: var(--input-background) !important;
+}
+._1r_9, ._53ik, ._53io {
+    background-image: url('#') !important;
 }
