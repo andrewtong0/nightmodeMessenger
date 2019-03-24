@@ -1,15 +1,10 @@
-/* Main Background, Active contacts button background (._6ckg), Active typing dialogue box (._17pz)*/
-.uiScrollableAreaBody, ._4sp8, ._6ckg, ._17pz {
+/* Main Background, Active contacts button background (._6ckg), Active typing dialogue box (._17pz), Stickers Background Menu (._293j, ._5r8a._5r8b), Record Audio Background (._3z51)*/
+.uiScrollableAreaBody, ._4sp8, ._6ckg, ._17pz, ._293j, ._5r8a._5r8b, ._3z51 {
     background-color: #212121 !important;
 }
 
-/* Selected Message */
-._1ht2 {
-    background-color: #141414 !important;
-}
-
-/* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2), New friend text (._36zg, ._1n-e), Nametags (._ih3) */
-._17w2, ._36ic, ._1tqi, h2, ._36zg, ._1n-e, ._ih3 {
+/* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2), New friend text (._36zg, ._1n-e), Nametags (._ih3), Poll Creation Title (._5jn1)*/
+._17w2, ._36ic, ._1tqi, h2, ._36zg, ._1n-e, ._ih3, ._5jn1 {
     color: rgb(176, 176, 176) !important;
 }
 
@@ -22,14 +17,24 @@
 ._1lj0, ._3eus, ._5uh, ._2v6o {
     color: rgba(255, 255, 255, 0.4) !important;
 }
-/* Left Sidebar Title (._1ht6) and Right Sidebar Menu Text (._3szq)*/
-._1ht6, ._3szq {
+/*Right Sidebar Menu Text (._3szq)*/
+._3szq {
     color: rgb(216, 216, 216) !important;
 }
 
-/* Left Sidebar Message Preview, Left Sidebar Captions */
-._1htf, ._225b {
-    color: rgb(134, 134, 134) !important;
+/* Message Left Sidebar Titles and Text */
+._1ht6 {
+    color: #8f8f8f !important;
+}
+
+/* Message Left Sidebar Unread Title */
+._1ht3 ._1ht6 {
+    color: #f4f4f4 !important;
+}
+
+/* Message Left Sidebar Unread Text Preview */
+._1ht3 ._1htf {
+    color: #bababa !important;
 }
 
 /* Right Sidebar Participant Names, Active Contacts Text (._6cke, ._6ckf) */
@@ -48,14 +53,36 @@
 }
 
 /* Embed link background */
-._tih, ._310t, ._3xn3, ._3xn7 {
-    background: white !important;
+._3xn3, ._3xn7 {
     border-radius: 10px !important;
 }
+/* Link Embed Border */
+._o46._3i_m ._3058._15gf ._2poz {
+    border-color: white !important;
+}
+/* Link Embed Text (._5i_d .__6m for in message embed), (._324d .__6l for input preview) */
+._5i_d .__6m, ._324d .__6l {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+/* Embed link preview when typed in */
+._4_j4 .chatAttachmentShelf, ._324d .__6k  {
+    border-top: 0px solid white !important;
+    background-color: var(--input-background) !important;
+    color: #e1e1e1 !important;
+}
 
-/* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al), Top bar background (._673w) */
-._4rv3, ._58al, ._673w {
+/* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al), Top bar background (._673w), Sticker Search Menu (._2pgc), GIF Background around search bar (._1er4), Poll Creation background (._5jmp, ._5jn3) */
+._4rv3, ._58al, ._673w, ._2pgc, ._1er4, ._5jmp, ._5jn3, ._9fw {
     background: var(--input-background) !important;
+}
+
+/* Removing sticker menu separators */
+._5r8e, ._5r86, ._37wv {
+    border-bottom: 0px solid black !important;
+    border-left: 0px solid black !important;
+}
+._eb3:before {
+    background-color: rgba(1, 1, 1, 0) !important;
 }
 
 /* Removed duplicate magnifying glass icon */
@@ -154,4 +181,58 @@
 /* Poll selection circles */
 ._2m5p {
     border: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Image Preview Transparent Background */
+._4-of {
+    background-color: rgba(1, 1, 1, 0) !important;
+}
+/* Removal of default random white border on image preview */
+._4-oi {
+    border: white 0px solid !important;
+}
+/* Translucent image preview bottom bar */
+._463g, ._2n5b{
+    background-color: rgba(1, 1, 1, 0.7) !important;
+}
+/* Removal of unnecessary duplicate translucent image preview bottom bars */
+._463h, ._463j {
+    background-color: rgba(1, 1, 1, 0) !important;
+}
+
+/* Shared photos right sidebar border modifications */
+._3m31:nth-of-type(3n+1), ._3m31:nth-of-type(3n+2), ._3m31:nth-of-type(3n+3) {
+    border-left: 0px solid #212121 !important;
+    border-right: 2px solid #212121 !important;
+}
+
+/*Replies Feature - Reply Title*/
+._4k7a {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+/* Reply Text (._4ik4) */
+._4ik4 {
+    color: #ececec !important;
+}
+/* Reply bubble border */
+._3erg ._4k7c, ._nd_ ._3058._s1-._4k7c {
+    border-color: rgba(255, 255, 255, 0.35) !important;
+}
+/* Reply input title */
+._67tu {
+    color: rgba(91, 133, 255, 0.7) !important;
+}
+._67tw {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Games Menu */
+._3rh0, ._4lh9 {
+    background-color: #212121 !important;
+    color: white !important;
+    border-color: black !important;
+    border-radius: 0px !important;
+}
+._4lh7, ._3z53 {
+    color: rgba(255, 255, 255, 0.6) !important;
 }
