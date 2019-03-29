@@ -1,21 +1,21 @@
 /* Main Background, Active contacts button background (._6ckg), Active typing dialogue box (._17pz), Stickers Background Menu (._293j, ._5r8a._5r8b), Record Audio Background (._3z51)*/
 .uiScrollableAreaBody, ._4sp8, ._6ckg, ._17pz, ._293j, ._5r8a._5r8b, ._3z51 {
-    background-color: #212121 !important;
+    background-color: #0d1421 !important;
 }
 
 /* Selected Message */
 ._1ht2 {
-    background-color: #141414 !important;
+    background-color: #080911 !important;
 }
 
 /* Divider Borders */
-.uiScrollableAreaBody {
-    border-right: 1px solid black !important;
+._4_j4, ._3tkv {
+    border-left: #1d1d1d solid 0.5px;
 }
 
 /* Message Chat Bubble (Receiving) */
 ._29_7 ._52mr {
-    background-color: #373737 !important;
+    background-color: #182d4b !important;
     color: #f9f9f9 !important;
 }
 
@@ -27,11 +27,6 @@
 /* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2), New friend text (._36zg, ._1n-e), Nametags (._ih3), Poll Creation Title (._5jn1)*/
 ._17w2, ._36ic, ._1tqi, h2, ._36zg, ._1n-e, ._ih3, ._5jn1 {
     color: rgb(176, 176, 176) !important;
-}
-
-/* Left Sidebar Search Titles */
-._225b {
-    color: rgba(255, 255, 255, 0.6) !important;
 }
 
 /* Right Sidebar Title */
@@ -97,11 +92,6 @@
     color: #e1e1e1 !important;
 }
 
-/* Received Link Text Colour */
-._hh7 a {
-    color: rgb(181, 181, 181) !important;
-}
-
 /* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al), Top bar background (._673w), Sticker Search Menu (._2pgc), GIF Background around search bar (._1er4), Poll Creation background (._5jmp, ._5jn3) */
 ._4rv3, ._58al, ._673w, ._2pgc, ._1er4, ._5jmp, ._5jn3, ._9fw {
     background: var(--input-background) !important;
@@ -157,7 +147,7 @@
 
 :root {
     --popup-colour: rgba(14, 14, 14, 0.92);
-    --input-background: #161616;
+    --input-background: #0a0e16;
 }
 
 /* Timestamp popup */
