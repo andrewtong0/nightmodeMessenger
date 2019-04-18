@@ -1,0 +1,2 @@
+# Restrict .idea folder from being pushed
+.idea/
