@@ -18,10 +18,29 @@
     background-color: #373737 !important;
     color: #f9f9f9 !important;
 }
+/* User chat bubble (Outgoing) */
+._nd_ ._hh7 {
+    background-color: #0084ff !important;
+}
+/* Remove background on standalone emojis */
+._hh7._6ybn._2f5r {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
 
 /* User message font colour */
-._nd_, ._hh7 {
+._hh7 {
     color: black !important;
+}
+/* User message info text colour (e.g. "_____ missed your call" */
+._nd_ {
+    color: #c4c4c4 !important;
+}
+
+/* Event message (e.g. "______ called you" */
+._5i_d {
+    border: 2px solid rgba(255, 255, 255, 0.5) !important;
+    background: rgba(0, 123, 255, 0.12) !important;
 }
 
 /* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2), New friend text (._36zg, ._1n-e), Nametags (._ih3), Poll Creation Title (._5jn1)*/
@@ -101,8 +120,12 @@
 ._hh7 a {
     color: rgb(181, 181, 181) !important;
 }
+/* Sent link text colour */
+._nd_ ._hh7 a {
+    color: rgb(58, 58, 58) !important;
+}
 
-/* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al), Top bar background (._673w), Sticker Search Menu (._2pgc), GIF Background around search bar (._1er4), Poll Creation background (._5jmp, ._5jn3) */
+    /* Bottom chat bar background (._4rv3), Search bar background (._5iwm ._58al), Top bar background (._673w), Sticker Search Menu (._2pgc), GIF Background around search bar (._1er4), Poll Creation background (._5jmp, ._5jn3) */
 ._4rv3, ._58al, ._673w, ._2pgc, ._1er4, ._5jmp, ._5jn3, ._9fw {
     background: var(--input-background) !important;
 }
@@ -182,11 +205,25 @@
 ._1k1p:hover {
     background-color: #292929 !important;
 }
+/* Outgoing mentions colouring */
+._o46._3i_m ._ih- {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    color: #3c3c3c !important;
+}
 
 /* Group chat seen counter (e.g. +4) */
 ._jf4 ._jf3 {
     color: rgba(255, 255, 255, 0.4) !important;
 }
+
+/* Image preview border around current image thumbnail */
+/*._42rl {*/
+    /*border: 1px solid #ffffff !important;*/
+/*}*/
+/* Borders for all other image should be invisible except current */
+/*._42rl ._q1a {*/
+    /*border: 0px solid black !important;*/
+/*}*/
 
 /* Poll Word (i.e. "Poll) (._3bfu), Poll Title (._1mr_ ) */
 ._3b4u, ._1mr_  {
