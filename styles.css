@@ -18,14 +18,15 @@
     background-color: #373737 !important;
     color: #f9f9f9 !important;
 }
-/* User chat bubble (Outgoing) */
-._nd_ ._hh7 {
-    background-color: #0084ff !important;
-}
+/* User chat bubble (Outgoing) [DISABLED] - nullifies facebook custom colours*/
+/*._nd_ ._hh7 {*/
+    /*background-color: #0084ff !important;*/
+/*}*/
 /* Remove background on standalone emojis */
 ._hh7._6ybn._2f5r {
     background-color: rgba(255, 255, 255, 0) !important;
 }
+
 /* Received link bubble background */
 .__6j._43kk {
     background-color: #373737 !important;
@@ -47,7 +48,7 @@
 /* Event message (e.g. "______ called you" */
 ._5i_d {
     border: 2px solid rgba(255, 255, 255, 0.5) !important;
-    background: rgba(0, 123, 255, 0.12) !important;
+    background: rgba(0, 0, 0, 0.20) !important;
 }
 
 /* Middle Header Title, Left Header Title (Messenger Title), Refresh Page amid search text (h2), New friend text (._36zg, ._1n-e), Nametags (._ih3), Poll Creation Title (._5jn1)*/
@@ -56,7 +57,7 @@
 }
 
 /* Left Sidebar Search Titles */
-._225b {
+._225b, ._4g0h {
     color: rgba(255, 255, 255, 0.6) !important;
 }
 
@@ -170,14 +171,14 @@
     color: #c5c5c5 !important;
 }
 
-/* Popup Text Menus with Opacity (._374c), Active Status Description (._6cs7) */
-._374c, ._6cs7 {
+/* Popup Text Menus with Opacity (._374c), Active Status Description (._6cs7), Mute Conversation options menu (._51l0 .uiInputLabel .__rm+.uiInputLabelLabel) */
+._374c, ._6cs7, ._51l0 .uiInputLabel .__rm+.uiInputLabelLabel {
     color: rgba(255, 255, 255, 0.4) !important;
 }
 
 /* Chat Bar Input (._5rp8 ._1mf) */
 ._5rp8, ._1mf {
-    color: #bfbfbf !important;
+    color: #d8d8d8 !important;
 }
 
 /* Sticker Menu Icon & Game Icon - Inverted Icon, React option to messages (.sp_DRWiQpFHw7f) */
@@ -316,4 +317,96 @@
 /* Horizontal line at end of shared photos */
 ._4dfu {
     background-image: linear-gradient(to right, white, rgba(255, 255, 255, 1), white) !important;
+}
+
+/* Muted/notifications subtext for right sidebar */
+._3x6v {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* NEW MESSENGER */
+
+/* Chats title */
+._6-xo {
+    color: rgb(255, 255, 255) !important;
+}
+
+/* Bottom chat bar */
+._5irm._7mkm {
+    background-color: rgb(22, 22, 22) !important;
+}
+
+/* Name of person talking to */
+._3eur._6ybk a {
+    color: #d8d8d8 !important;
+}
+
+/* "Something's wrong" warning text */
+._7ht_ {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+#caution-triangle > #Group > #Fill-23,
+#minus-circle > #Fill-19,
+#message-cross > #Page-1 > #Fill-1,
+#bell > #Fill-24,
+#pencil-underline > #Group > #Fill-1,
+#magnifying-glass > #Search > #Fill-1,
+#settings > #Settings > #Fill-1,
+#compose > #Fill-2 {
+    fill: #bdbdbd !important;
+}
+
+#share > #Fill-8,
+#reply > #Fill-19,
+#dots-3-horizontal > #Page-1 > #Fill-1,
+._2u_d._7i2j :nth-child(2) {
+    fill: #bdbdbd !important;
+}
+
+._3-wv._7i2n:hover,
+._2rvp._7i2l:hover,
+._5zvq._7i2o:hover{
+    background-color: rgba(0, 0, 0, .40) !important
+}
+
+/* Forward a message "To:" */
+._2y8z {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Nickname editor border */
+._30e7 ._5j5f {
+    border: 2px solid rgba(255, 255, 255, 0.35) !important;
+}
+
+/* Shared pictures right sidebar loading background removal (._7jxv), thumbs up white background removal (#js_6) */
+._7jxv {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+/* Thumbs up emoji background to match gray background (._2poz > svg > rect), animated version (as it enlarges) (._4a9g _576q > svg > rect) */
+._2poz > svg > rect,
+._4a9g > svg > rect{
+    fill: #212121 !important;
+}
+
+/* Composing new message To: ____ field (.__6g ._14-7 ._58ah ._58al) and rest of surrounding bar (._2y8y._6zw0) */
+.__6g ._14-7 ._58ah ._58al, ._2y8y._6zw0  {
+    background-color: #161616 !important;
+}
+
+/* Sidebar hover shading */
+._1liy ._1lj0:hover {
+    background-color: rgba(0, 0, 0, .25) !important
+}
+
+/* Spacing for shared photos top margin */
+._40jj {
+    margin-top: 9px !important;
+}
+
+/* React emoji background */
+._53ij {
+    background: #353535 !important;
 }
