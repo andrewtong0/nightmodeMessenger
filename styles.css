@@ -181,7 +181,7 @@
     color: #d8d8d8 !important;
 }
 
-/* Sticker Menu Icon & Game Icon - Inverted Icon, React option to messages (.sp_DRWiQpFHw7f) */
+/* Sticker Menu Icon & Game Icon - Inverted Icon, React option to messages (.sp_DRWiQpFHw7f), Magnifying glass in search (.sp_sbxFxdCZjuj) */
 ._4rv6, a._4ce_, .sp_DRWiQpFHw7f {
     background-image: url("https://i.imgur.com/XA3EVhg.png") !important;
     opacity: 0.55 !important;
@@ -364,10 +364,11 @@
     fill: #bdbdbd !important;
 }
 
+/* Hover over react/reply/etc. */
 ._3-wv._7i2n:hover,
 ._2rvp._7i2l:hover,
 ._5zvq._7i2o:hover{
-    background-color: rgba(0, 0, 0, .40) !important
+    background-color: rgba(0, 0, 0, 0.5) !important
 }
 
 /* Forward a message "To:" */
@@ -409,4 +410,15 @@
 /* React emoji background */
 ._53ij {
     background: #353535 !important;
+}
+
+/* Settings menu links text */
+._6ct7._6y57, ._6ct8._6y58 {
+    color: #c3c3c3 !important;
+}
+
+/* Type a message... tooltip text */
+._kmc._7kpg ._1p1t {
+    color: rgba(255, 255, 255, 0.5) !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.5) !important;
 }
