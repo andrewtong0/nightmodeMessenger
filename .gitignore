@@ -1,2 +1,6 @@
 # Restrict .idea folder from being pushed
 .idea/
+styles-ignore.css
+manifest-old.json
+content-backup.js
+jsconfig.json

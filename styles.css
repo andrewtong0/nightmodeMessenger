@@ -422,3 +422,34 @@
     color: rgba(255, 255, 255, 0.5) !important;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.5) !important;
 }
+
+/* Replies background */
+._3egs {
+    background: #212121 !important;
+}
+
+/* Event Notification (top bar event reminder) */
+._3nta {
+    background-color: #353535 !important;
+}
+._2mjl {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+._2613 {
+    color: white !important;
+}
+
+/* Event Notification (in message body) */
+._3wb0, ._3wa- {
+    color: rgb(255, 255, 255) !important;
+}
+
+/* Message request information */
+._74ku {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Sidebar group chat user names */
+._8slc {
+    color: rgb(255, 255, 255) !important;
+}

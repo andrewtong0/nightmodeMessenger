@@ -7,6 +7,7 @@ let borderRightDark = ['uiScrollableAreaBody'];
 let textOffWhite = ['_29_7._52mr']; //#f9f9f9
 
 function setEl() {
+    console.log("Test");
     // Backgrounds
     for (let i = 0; i < background.length; i++) {
         let element = document.getElementsByClassName(background[i]);
@@ -37,5 +38,5 @@ function setEl() {
         element[0].style.color = '#f9f9f9';
     }
 }
-
+console.log("TEST");
 window.onload = setEl;
