@@ -3,6 +3,7 @@
     --dark-gray: #111111;
     --darker-gray: #0a0a0a;
     --opacity-30: rgba(0, 0, 0, 0.3);
+    --opacity-50: rgba(0, 0, 0, 0.5);
     --opacity-80: rgba(0, 0, 0, 0.8);
     --black: black;
     --white: white;
@@ -10,7 +11,7 @@
     --messenger-background: var(--dark-gray);
 
     /* Hover colour */
-    --hover-overlay: var(--opacity-30) !important;
+    --hover-overlay: var(--opacity-50) !important;
 
     /* User text colour */
     --always-white: black !important;
@@ -36,7 +37,7 @@
 
     /* BUTTONS */
     /* Secondary buttons in top-left panel */
-    --secondary-button-background: var(--darker-gray) !important;
+    --secondary-button-background: var(--gray) !important;
     /* Icon that appears when you hover a person's chat */
     --popover-background: var(--opacity-80) !important;
 
@@ -77,16 +78,21 @@
 }
 
 /* Change icon colour for reply "X" */
-.sp_GOPGoqMu6Pq {
-    background-image: url(https://i.imgur.com/YyrmLUG.png) !important;
+.sp_A3xPrD32pbV
+{
+    background-image: url(https://i.imgur.com/PRpMQCB.png) !important;
 }
 
 /* For "Messenger App advertisement" */
-.sp_o5t_XtHjhxN {
+.sp_GnLpakRY1_I
+{
     background-image: url(https://i.imgur.com/UwMaNgv.png) !important;
 }
 
-
+/* Muted conversations bell icon */
+.a8c37x1j {
+    fill: var(--white) !important;
+}
 
 
 
