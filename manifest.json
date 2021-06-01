@@ -1,7 +1,7 @@
 {
   "name": "Nightmode Messenger",
   "short_name": "Nightmode Messenger",
-  "version": "0.0.4.1",
+  "version": "0.0.4.2",
   "description": "A lightweight Nightmode theme for Facebook Messenger",
   "icons": {
     "16": "images/nightModeIcon16.png",

@@ -100,7 +100,11 @@
     fill: var(--white) !important;
 }
 
-
+/* Search background */
+/* By defualt, this is set to --card-background, but the override for --card-background is not working and remains white */
+.cwj9ozl2 {
+    background-color: var(--dark-gray) !important;
+}
 
 
 
