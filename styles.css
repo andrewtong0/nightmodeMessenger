@@ -1,4 +1,5 @@
 :root {
+    --light-gray: #bcc0c4;
     --gray: #313131;
     --dark-gray: #111111;
     --darker-gray: #0a0a0a;
@@ -107,6 +108,22 @@
 }
 
 
+/* Scrollbar Darkmode Overrides */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--dark-gray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--light-gray);
+    border-radius: 5px;
+}
 
 
 /* OLD MESSENGER.COM SUPPORT */
